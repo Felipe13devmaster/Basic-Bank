@@ -8,7 +8,6 @@ namespace Basic_Bank_Solution.Models
 {
     public class Contexto : DbContext
     {
-        public DbSet<AcessoAdmin> AcessoAdmins { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Conta> Contas { get; set; }
         public DbSet<DadosAcesso> DadosAcessos { get; set; }
