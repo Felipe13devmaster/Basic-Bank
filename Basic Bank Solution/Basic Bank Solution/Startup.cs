@@ -52,7 +52,7 @@ namespace Basic_Bank_Solution
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=AcessoAdmins}/{action=Login}/{id?}");
             });
         }
     }
